@@ -1,8 +1,8 @@
-# Tourism Website
+# Vacation Vibe Tourism Website
 
 ![tourist-carrying-luggage_23-2151747461](https://github.com/user-attachments/assets/0c9519e0-30dd-4e49-9328-0408d7f66d8f)
 
-Welcome to the **Tourism Website**! This project aims to provide travelers with a comprehensive platform for exploring various destinations, accessing travel tips, and finding booking options. Whether you're planning a vacation or looking for travel inspiration, this website has something for everyone.
+Welcome to the **Vacation Vibe Tourism Website**! This project aims to provide travelers with a comprehensive platform for exploring various destinations, accessing travel tips, and finding booking options. Whether you're planning a vacation or looking for travel inspiration, this website has something for everyone.
 
 ## Features
 
@@ -15,10 +15,9 @@ Welcome to the **Tourism Website**! This project aims to provide travelers with 
 
 ## Technologies Used
 
-- **HTML**: For structuring the content of the website.
-- **CSS**: For styling and layout.
-- **JavaScript**: For interactivity and dynamic content.
-- **[Framework/Library]** (e.g., React, Angular, etc.): For building user interfaces (if applicable).
+- **Vite**: For bundling and structuring the content of the website.
+- **React**: For building user interfaces and managing the layout.
+- **JavaScript**: For implementing dynamic functionality and interactivity.
 - **API**: [Name of API] for fetching real-time data (if applicable).
 - **Version Control**: Git for tracking changes and collaboration.
 
