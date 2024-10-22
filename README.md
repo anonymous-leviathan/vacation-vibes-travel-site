@@ -2,17 +2,6 @@
 
 Welcome to the **Tourism Website**! This project aims to provide travelers with a comprehensive platform for exploring various destinations, accessing travel tips, and finding booking options. Whether you're planning a vacation or looking for travel inspiration, this website has something for everyone.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Features
 
 - **Destination Guides**: In-depth information about popular travel destinations, including attractions, culture, and local tips.
@@ -38,3 +27,4 @@ To get a local copy of the project up and running, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/tourism-website.git
+   ```
