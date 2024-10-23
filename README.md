@@ -1,6 +1,6 @@
 # Vacation Vibe Tourism Website
 
-![tourist-carrying-luggage_23-2151747461](https://github.com/user-attachments/assets/0c9519e0-30dd-4e49-9328-0408d7f66d8f)
+![portrait-woman-visiting-luxurious-city-dubai_23-2151328512](https://github.com/user-attachments/assets/31510e3e-8b1d-4b35-97bd-8ab6ce480587)
 
 Welcome to the **Vacation Vibe Tourism Website**! This project aims to provide travelers with a comprehensive platform for exploring various destinations, accessing travel tips, and finding booking options. Whether you're planning a vacation or looking for travel inspiration, this website has something for everyone.
 
