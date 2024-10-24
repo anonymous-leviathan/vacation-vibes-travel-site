@@ -27,16 +27,17 @@ export default function NavBar() {
                     <button className="bg-transparent rounded shadow h-12 px-6 outline-none text-light hover:bg-primary hover:text-white cursor-pointer text-base transition-bg hover:border hover:border-primary">Sign In</button>
                     <button className="bg-primary rounded shadow h-12 px-6 outline-none text-black hover:bg-white hover:text-primary cursor-pointer text-base transition-bg hover:border hover:border-primary">Sign Up</button>
                 </div>
-                {dropdown ? (<div onClick={showDropdown}><MdClose/></div>) : (
-                    <div onClick={showDropdown}><HiMenuAlt3/></div>)}
+                {dropdown ? (
+                    <div onClick={showDropdown} className="lg:hidden text-[22px] cursor-pointer text-black"><MdClose/></div>) : (
+                    <div onClick={showDropdown} className="lg:hidden text-[22px] cursor-pointer text-black"><HiMenuAlt3/></div>)}
             </div>
-            {dropdown && (<div>
-                <div>
-                    <ul>
-                        <a href="#">Home</a>
-                        <a href="#">Ticket</a>
-                        <a href="#">Explore</a>
-                        <a href="#">Activity</a>
+            {dropdown && (<div className="lg:hidden w-full fixed top-24 bg-primary transition-all">
+                <div className="w-full flex flex-col items-baseline gap-4">
+                    <ul className="flex flex-col justify-center w-full">
+                        <a href="#" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border-0 border-b border-[#ffffffla] border-solid">Home</a>
+                        <a href="#" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border-0 border-b border-[#ffffffla] border-solid">Ticket</a>
+                        <a href="#" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border-0 border-b border-[#ffffffla] border-solid">Explore</a>
+                        <a href="#" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border-0 border-b border-[#ffffffla] border-solid">Activity</a>
                     </ul>
                 </div>
             </div>)}
