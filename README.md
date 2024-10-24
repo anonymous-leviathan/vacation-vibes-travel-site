@@ -1,8 +1,32 @@
-# React + Vite
+# Vacation Vibe Tourism Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![portrait-woman-visiting-luxurious-city-dubai_23-2151328511](https://github.com/user-attachments/assets/bdc2cd33-3980-473a-8b07-787062630f3a)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to the **Vacation Vibe Tourism Website**! This project aims to provide travelers with a comprehensive platform for exploring various destinations, accessing travel tips, and finding booking options. Whether you're planning a vacation or looking for travel inspiration, this website has something for everyone.
+
+## Features
+
+- **Destination Guides**: In-depth information about popular travel destinations, including attractions, culture, and local tips.
+- **Travel Tips**: A collection of helpful travel advice to enhance your journey, from packing essentials to navigating local customs.
+- **Booking Options**: Links and tools for finding accommodations, flights, and activities tailored to your travel preferences.
+- **User Reviews**: Section for users to share their experiences and tips.
+- **Responsive Design**: A mobile-friendly layout ensuring a seamless experience on any device.
+- **Interactive Map**: Explore destinations visually through an interactive map feature.
+
+## Technologies Used
+
+- **Vite**: For bundling and structuring the content of the website.
+- **React**: For building user interfaces and managing the layout.
+- **JavaScript**: For implementing dynamic functionality and interactivity.
+- **API**: [Name of API] for fetching real-time data (if applicable).
+- **Version Control**: Git for tracking changes and collaboration.
+
+## Installation
+
+To get a local copy of the project up and running, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   https://github.com/mGunawardhana/vacation-vibes-travel-site.git
+   ```
