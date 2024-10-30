@@ -12,7 +12,7 @@ export default function Hero() {
                 <img
                     alt=""
                     className="lg:absolute top-0 w-full lg:h-[70vh] h-[30rem] object-cover rounded-2xl hoverImg"
-                    src="https://img.freepik.com/free-photo/view-breathtaking-beach-nature-landscape_23-2151682924.jpg?t=st=1729781561~exp=1729785161~hmac=c8637ad1cfe5393cf80b26566d7688cde3803a68858a9e9b88335f08e4b09c29&w=1380"/>
+                    src="https://img.freepik.com/free-photo/tourist-carrying-luggage_23-2151747447.jpg?t=st=1730278120~exp=1730281720~hmac=a4884d0a9da8bf26e6ae543f6e70ad66dba2d7f88cf95be3a4558d084ecbebb4&w=1480"/>
             </div>
             <div className="absolute top-0 bottom-0 left-0 right-0 h-fit">
                 <h1 className="text-white text-4xl flex justify-center mt-16 font-bold lg:w-4/5 mx-auto text-center">
