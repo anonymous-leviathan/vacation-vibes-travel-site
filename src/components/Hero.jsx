@@ -4,7 +4,6 @@ import { FaLocationPin, FaPerson } from "react-icons/fa6";
 
 export default function Hero() {
     const [active, setActive] = useState("Hostelry");
-
     return (
         <div className="container mx-auto px-6 pt-12">
             <div className="relative rounded-2xl lg:pb-32 lg:h-[70vh]">
