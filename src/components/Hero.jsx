@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { FaArrowRight, FaCalendar, FaSearch } from "react-icons/fa";
 import { FaLocationPin, FaPerson } from "react-icons/fa6";
 
@@ -9,10 +9,14 @@ export default function Hero() {
         <div className="container mx-auto px-6 pt-12">
             <div className="relative rounded-2xl lg:pb-32 lg:h-[70vh]">
                 <div className="overflow-hidden relative h-full w-full">
-                    <img
-                        alt=""
+                    {/* Replace img with video */}
+                    <video
+                        src="https://videos.pexels.com/video-files/3089895/3089895-uhd_2560_1440_30fps.mp4" // Replace this with your actual video file path or URL
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
                         className="lg:absolute top-0 w-full lg:h-[70vh] h-[30rem] object-cover rounded-2xl hoverImg"
-                        src="https://img.freepik.com/free-photo/view-breathtaking-beach-nature-landscape_23-2151682951.jpg?t=st=1730306580~exp=1730310180~hmac=0b029053b8604fff9349a0026943c3a5e562e0abbd3a3c3976bd5febed305aaf&w=1380"
                     />
                 </div>
                 <div className="absolute inset-0 h-fit">

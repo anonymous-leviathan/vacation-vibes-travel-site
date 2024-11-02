@@ -1,4 +1,4 @@
-import { HiLocationMarker } from "react-icons/hi";
+import { HiOutlineLocationMarker } from "react-icons/hi"; // Correct import for HiOutlineLocationMarker
 
 export default function Popular() {
     const Card = ({ image, text, location }) => {
@@ -13,7 +13,7 @@ export default function Popular() {
                         {text}
                     </h5>
                     <div className="flex items-center gap-2 mt-2 text-gray-500">
-                        <HiLocationMarker className="text-primary" size={20} />
+                        <HiOutlineLocationMarker className="text-primary" size={20} /> {/* Updated icon */}
                         <p>{location}</p>
                     </div>
                 </div>
@@ -28,25 +28,25 @@ export default function Popular() {
                 <p className="py-4 text-gray-600">Let's enjoy this heaven on earth</p>
                 <div className="text-gray-500 lg:w-2/5 mx-auto">Many places to visit, many places to explore. Let's enjoy this heaven on earth</div>
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 mt-12">
-                    <Card 
-                        image="https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Most-Beautiful-Places-to-Travel-Featured-Image.jpg" 
-                        text="SC, Mindanao" 
-                        location="Mindanao, Philippines" 
+                    <Card
+                        image="https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Most-Beautiful-Places-to-Travel-Featured-Image.jpg"
+                        text="SC, Mindanao"
+                        location="Mindanao, Philippines"
                     />
-                    <Card 
-                        image="https://www.indiatravel.app/wp-content/uploads/2024/02/places-to-visit-in-bhopal.jpg" 
-                        text="Disneyland Tokyo" 
-                        location="Tokyo, Japan" 
+                    <Card
+                        image="https://www.indiatravel.app/wp-content/uploads/2024/02/places-to-visit-in-bhopal.jpg"
+                        text="Disneyland Tokyo"
+                        location="Tokyo, Japan"
                     />
-                    <Card 
-                        image="https://worldwildschooling.com/wp-content/uploads/2024/01/12-Unique-Places-for-Your-European-Travel-Bucket-List_Annecy-France_Armando-Oliveira_AdobeStock_534300469-1-1024x576.jpg" 
-                        text="Thousand Island" 
-                        location="Java, Indonesia" 
+                    <Card
+                        image="https://worldwildschooling.com/wp-content/uploads/2024/01/12-Unique-Places-for-Your-European-Travel-Bucket-List_Annecy-France_Armando-Oliveira_AdobeStock_534300469-1-1024x576.jpg"
+                        text="Thousand Island"
+                        location="Java, Indonesia"
                     />
-                    <Card 
-                        image="https://media.licdn.com/dms/image/D5612AQFa6rvrrdXMbg/article-cover_image-shrink_720_1280/0/1700134577849?e=2147483647&v=beta&t=E29l9EGrhsPPSuEmUCZAUeTANcNX92Y356UWIIY0iXg" 
-                        text="Basilica Santo" 
-                        location="Venice, Italy" 
+                    <Card
+                        image="https://media.licdn.com/dms/image/D5612AQFa6rvrrdXMbg/article-cover_image-shrink_720_1280/0/1700134577849?e=2147483647&v=beta&t=E29l9EGrhsPPSuEmUCZAUeTANcNX92Y356UWIIY0iXg"
+                        text="Basilica Santo"
+                        location="Venice, Italy"
                     />
                 </div>
             </section>
